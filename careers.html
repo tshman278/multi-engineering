@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Careers - Multi Engineering India</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <!-- ...same as above... -->
+    </header>
+    <main>
+        <section>
+            <h1>Careers</h1>
+            <p>Join our team of innovators and problem solvers.</p>
+            <div class="job-listing">
+                <h2>Open Positions</h2>
+                <div class="job">
+                    <h3>Project Engineer <span class="accent">[Full Time]</span></h3>
+                    <p>Lead engineering projects from conception to completion.</p>
+                    <button onclick="document.getElementById('apply-form').style.display='block'">Apply Now</button>
+                </div>
+                <!-- More jobs can be listed similarly -->
+            </div>
+            <form id="apply-form" style="display:none;" class="apply-form">
+                <h2>Apply Now</h2>
+                <label>Name: <input type="text" name="name" required></label><br>
+                <label>Email: <input type="email" name="email" required></label><br>
+                <label>Phone: <input type="tel" name="phone" required></label><br>
+                <label>Upload Resume: <input type="file" name="resume" required></label><br>
+                <button type="submit" class="btn accent">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Multi Engineering India. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
